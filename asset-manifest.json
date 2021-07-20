@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ryanhuang/static/css/main.a617e044.chunk.css",
+    "main.js": "/ryanhuang/static/js/main.5729cc22.chunk.js",
+    "main.js.map": "/ryanhuang/static/js/main.5729cc22.chunk.js.map",
+    "runtime-main.js": "/ryanhuang/static/js/runtime-main.761c078e.js",
+    "runtime-main.js.map": "/ryanhuang/static/js/runtime-main.761c078e.js.map",
+    "static/js/2.3680dfa7.chunk.js": "/ryanhuang/static/js/2.3680dfa7.chunk.js",
+    "static/js/2.3680dfa7.chunk.js.map": "/ryanhuang/static/js/2.3680dfa7.chunk.js.map",
+    "static/js/3.c1fa1dcc.chunk.js": "/ryanhuang/static/js/3.c1fa1dcc.chunk.js",
+    "static/js/3.c1fa1dcc.chunk.js.map": "/ryanhuang/static/js/3.c1fa1dcc.chunk.js.map",
+    "index.html": "/ryanhuang/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/ryanhuang/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.3680dfa7.chunk.js.LICENSE.txt": "/ryanhuang/static/js/2.3680dfa7.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ryanhuang/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.761c078e.js",
+    "static/js/2.3680dfa7.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.5729cc22.chunk.js"
+  ]
+}
