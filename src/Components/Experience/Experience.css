@@ -1,0 +1,54 @@
+.hint {
+    font-size: large;
+    padding: 10px;
+}
+
+.experience-timeline {
+    margin: 0 20% 0 20%;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+.experience-header {
+    margin-top: 0px;
+}
+
+.experience-img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.experience-link {
+    text-decoration: none;
+    color: #779ecb;
+}
+
+.experience-card {
+    padding: 10px;
+}
+
+.experience-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.role {
+    
+}
+
+.duration {
+    font-style: italic;
+}
+
+.header-left {
+
+}
+
+.experience-card-body {
+    padding-top: 10px;
+}

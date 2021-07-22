@@ -13,7 +13,7 @@ class About extends React.Component {
                     <img src={profile} alt="profile" id="profile"></img>
                     <div className="about-text-container">
                         <div className="about-text">
-                            <p className="about-edu">I'm a junior at UC Berkeley studying Electrical Engineering and Computer Science.</p>
+                            <p className="about-edu">I'm a junior at UC Berkeley studying Electrical Engineering⚡and Computer Science💻.</p>
                             <p>I'm passionate about building products with others that have an impact on people's wellbeing.</p>
                             <p>In my free time I enjoy building mechanical keyboards, playing / watching basketball (Go Suns!), and traveling with friends.</p>
                         </div>
