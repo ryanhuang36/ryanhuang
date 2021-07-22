@@ -1,0 +1,25 @@
+.about-section {
+    padding: 0 50px 25px 50px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+#profile {
+    width: 15%;
+    height: 15%;
+    min-width: 150px;
+    min-height: 200px;
+}
+
+.about-edu {
+    font-size: x-large;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#pikachu {
+    width: 50px;
+    height: 37px;
+}

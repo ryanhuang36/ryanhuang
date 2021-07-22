@@ -1,0 +1,35 @@
+.Navbar-Items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #779ecb; /*pastel blue aec6cf */ /* green 8DAA91*/ /* dark pastel blue 779ecb */
+    color: white;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbar-logo {
+    padding-left: 50px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+}
+
+li {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.navbar-item {
+    color:white;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    color: #FFD8BE;
+}
