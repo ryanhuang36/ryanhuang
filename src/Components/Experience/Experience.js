@@ -70,7 +70,7 @@ const experiences = [
                 DIEMlife is a platform focused around the idea of Quests, which can be fundraisers or challenges that groups or even individuals can host. DIEMlife has
                 both a web application and mobile apps (iOS and Android). As a software engineer intern, I worked on both web and mobile, in the frontend
                 and backend. While I developed in Angular and Java for the webapp, I learned Nativescript as I worked through the mobile app. I was also in charge of deploying the app
-                through Jenkins. Apart from bug fixes and feature enhancements, I also created the first version of an acitivy page which you can see above. Finally, I launched a proof
+                through Jenkins. Apart from bug fixes and feature enhancements, I also created the first version of an activity page which you can see above. Finally, I launched a proof
                 of concept for Apple Health/Google Fit automation of user activity logging.
             </div>
         </div>
