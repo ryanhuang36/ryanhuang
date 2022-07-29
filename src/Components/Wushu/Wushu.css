@@ -1,0 +1,13 @@
+.wushu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wushu-text {
+    width: 50%;
+}
+
+.wushu-video {
+    padding: 20px;
+}
