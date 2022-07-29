@@ -19,8 +19,20 @@
 }
 
 .experience-link {
-    text-decoration: none;
     color: #779ecb;
+}
+
+
+.experience-link:visited{
+    text-decoration:none;
+}
+
+.experience-link:link{
+    text-decoration:none;
+}
+
+.experience-link:hover {
+    color: #4a709b;
 }
 
 .experience-card {
@@ -37,16 +49,8 @@
     font-weight: bold;
 }
 
-.role {
-    
-}
-
 .duration {
     font-style: italic;
-}
-
-.header-left {
-
 }
 
 .experience-card-body {

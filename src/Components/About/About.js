@@ -16,13 +16,13 @@ class About extends React.Component {
                         <div className="about-text">
                             <p className="about-edu">I'm a senior at UC Berkeley studying Electrical Engineering⚡and Computer Science💻.</p>
                             <p>I'm passionate about building products with others that have an impact on people's wellbeing.</p>
-                            <p>In my free time I enjoy building <Link id="about-link" to="/keeb">mechanical keyboards</Link>, <a id="about-link" href="https://www.instagram.com/rhfilm_/" target="_blank" rel="noreferrer">shooting film</a>, <Link id="about-link" to="/jiayou">practicing wushu</Link>, and traveling with friends.</p>
+                            <p>In my free time I enjoy <Link id="about-link" to="/keeb">building mechanical keyboards</Link>, <a id="about-link" href="https://www.instagram.com/rhfilm_/" target="_blank" rel="noreferrer">shooting film</a>, <Link id="about-link" to="/jiayou">practicing wushu</Link>, and traveling with friends.</p>
                         </div>
                     </div>
                     <div className="links">
-                        <a href="https://www.linkedin.com/in/ryanhuang36/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="linkedin"/></a>
-                        <a href="https://github.com/ryanhuang36" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="github"/></a>
-                        <a href="mailto: ryanhuang@berkeley.edu"><img src="https://img.icons8.com/ios-glyphs/30/000000/filled-message.png" alt="mail"/></a>
+                        <a href="https://www.linkedin.com/in/ryanhuang36/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="linkedin" style={{paddingTop: 5, paddingRight: 5}}/></a>
+                        <a href="https://github.com/ryanhuang36" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="github" style={{paddingTop: 5}}/></a>
+                        <a href="mailto: ryanhuang@berkeley.edu"><img src="https://img.icons8.com/ios-glyphs/30/000000/filled-message.png" alt="mail" style={{paddingTop: 5, paddingLeft: 5}}/></a>
                     </div>
                 </div>
                 <img src={pikachu} id="pikachu" alt="pika-pika"></img>

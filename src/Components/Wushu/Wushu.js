@@ -21,9 +21,15 @@ class Wushu extends React.Component {
                     <img className="gallery-photo" src={Tornado} alt="tornado"></img>
                 </div>
                 <div>
-                    <iframe className="wushu-video" width="1280" height="720" src="https://www.youtube.com/embed/EhDlvlzPPhc" title="Adv CQ Ryan Huang" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe className="wushu-video" width="1280" height="720" src="https://www.youtube.com/embed/Y3QOLeLwii8" title="Adv N Trad Weapon Ryan Huang" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe className="wushu-video" width="1280" height="720" src="https://www.youtube.com/embed/GCo7SFNUbVg" title="Adv DS Ryan Huang" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div className="iframe-container">
+                        <iframe className="wushu-video" width="1280" height="720" src="https://www.youtube.com/embed/EhDlvlzPPhc" title="Adv CQ Ryan Huang" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div className="iframe-container">
+                        <iframe className="wushu-video" width="1280" height="720" src="https://www.youtube.com/embed/Y3QOLeLwii8" title="Adv N Trad Weapon Ryan Huang" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div className="iframe-container">
+                        <iframe className="wushu-video" width="1280" height="720" src="https://www.youtube.com/embed/GCo7SFNUbVg" title="Adv DS Ryan Huang" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         )

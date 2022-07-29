@@ -4,3 +4,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media only screen and (max-width: 500px) {
+    .keeb-video {
+        width: 350px;
+        height: 200px;
+        border-radius: 5%;
+        padding: 10px;
+    }
+}

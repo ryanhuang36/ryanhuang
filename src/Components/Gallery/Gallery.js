@@ -18,7 +18,7 @@ class Gallery extends React.Component {
                 <p>Here's some photos of me and friends that I think are cool (many taken by my good friend <a id="melinda" href="https://www.instagram.com/photos.bymeli/" target="_blank" rel="noreferrer">Melinda</a>):</p>
                 <div>
                     <img className="gallery-photo photosection1" src={sf2} alt="sf2"></img>
-                    <img className="gallery-photo photosection1" src={desert} alt="desert"></img>
+                    <img id="desert" className="gallery-photo photosection1" src={desert} alt="desert"></img>
                 </div>
                 <div>
                     <img className="gallery-photo photosection2" src={tennis} alt="tennis"></img>

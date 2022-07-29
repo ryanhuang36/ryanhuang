@@ -25,7 +25,17 @@ h1 {
 }
 
 #about-link {
-    color:black;
-    font-weight: 500;
+    color: #779ecb;
+}
+
+#about-link:visited{
     text-decoration:none;
+}
+
+#about-link:link{
+    text-decoration:none;
+}
+
+#about-link:hover {
+    color: #4a709b;
 }
