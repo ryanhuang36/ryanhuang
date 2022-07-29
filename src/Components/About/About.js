@@ -3,6 +3,7 @@ import profile from '../../assets/ryan.jpg'
 import pikachu from '../../assets/pikachu.gif'
 import Gallery from '../Gallery/Gallery.js'
 import './About.css'
+import { Link } from 'react-router-dom';
 
 class About extends React.Component {
     render() {
@@ -15,7 +16,7 @@ class About extends React.Component {
                         <div className="about-text">
                             <p className="about-edu">I'm a senior at UC Berkeley studying Electrical Engineering⚡and Computer Science💻.</p>
                             <p>I'm passionate about building products with others that have an impact on people's wellbeing.</p>
-                            <p>In my free time I enjoy building <a id="about-link" href="/keeb">mechanical keyboards</a>, <a id="about-link" href="https://www.instagram.com/rhfilm_/" target="_blank" rel="noreferrer">shooting film</a>, <a id="about-link" href="/jiayou">practicing wushu</a>, and traveling with friends.</p>
+                            <p>In my free time I enjoy building <Link id="about-link" to="/keeb">mechanical keyboards</Link>, <a id="about-link" href="https://www.instagram.com/rhfilm_/" target="_blank" rel="noreferrer">shooting film</a>, <Link id="about-link" to="/jiayou">practicing wushu</Link>, and traveling with friends.</p>
                         </div>
                     </div>
                     <div className="links">
