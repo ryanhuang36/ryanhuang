@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+#iwg {
+    width: 100%;
+}
+
 .wushu-text {
     width: 50%;
 }

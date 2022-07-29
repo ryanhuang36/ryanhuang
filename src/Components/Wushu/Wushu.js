@@ -13,7 +13,7 @@ class Wushu extends React.Component {
                     punches, sweeps, jumps, and flips completed in a performative manner. I'm currently a co-captain of Cal Wushu (UC Berkeley's collegiate team). Here's a few pics and videos for reference :)
                 </p>
                 <div>
-                    <img className="gallery-photo" src={IWG} alt="iwg"></img>
+                    <img id="iwg" className="gallery-photo" src={IWG} alt="iwg"></img>
                 </div>
                 <div>
                     <img className="gallery-photo" src={Broadsword} alt="broadsword"></img>
