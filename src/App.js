@@ -6,13 +6,12 @@ import Resume from './Components/Resume/Resume'
 import Keeb from './Components/Keeb/Keeb'
 import Wushu from './Components/Wushu/Wushu'
 import Footer from './Components/Footer/Footer'
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Router>
           <Navbar></Navbar>
           <div>
             <Switch>
@@ -20,11 +19,10 @@ function App() {
               <Route path="/Resume" component={Resume}></Route>
               <Route path="/keeb" component={Keeb}></Route>
               <Route path="/jiayou" component={Wushu}></Route>
-              <Route path="/ryanhuang" component={About}></Route>
+              <Route exact path="/" component={About}></Route>
             </Switch>
           </div>
           <Footer></Footer>
-        </Router>
       </header>
     </div>
   );
