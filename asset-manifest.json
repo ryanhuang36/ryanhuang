@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ryanhuang/static/css/main.5ec45463.chunk.css",
-    "main.js": "/ryanhuang/static/js/main.f69d0683.chunk.js",
-    "main.js.map": "/ryanhuang/static/js/main.f69d0683.chunk.js.map",
+    "main.js": "/ryanhuang/static/js/main.561a336c.chunk.js",
+    "main.js.map": "/ryanhuang/static/js/main.561a336c.chunk.js.map",
     "runtime-main.js": "/ryanhuang/static/js/runtime-main.d030b968.js",
     "runtime-main.js.map": "/ryanhuang/static/js/runtime-main.d030b968.js.map",
     "static/js/2.a1887803.chunk.js": "/ryanhuang/static/js/2.a1887803.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.5ec45463.chunk.css.map": "/ryanhuang/static/css/main.5ec45463.chunk.css.map",
     "static/js/2.a1887803.chunk.js.LICENSE.txt": "/ryanhuang/static/js/2.a1887803.chunk.js.LICENSE.txt",
     "static/media/DIEMlife.1f4b8733.png": "/ryanhuang/static/media/DIEMlife.1f4b8733.png",
-    "static/media/Ryan_Resume.7ad4948a.pdf": "/ryanhuang/static/media/Ryan_Resume.7ad4948a.pdf",
+    "static/media/Ryan_Huang_Resume.f0cc273d.pdf": "/ryanhuang/static/media/Ryan_Huang_Resume.f0cc273d.pdf",
     "static/media/anr.2339a451.JPG": "/ryanhuang/static/media/anr.2339a451.JPG",
     "static/media/bongo-cat-typing.a07744f3.gif": "/ryanhuang/static/media/bongo-cat-typing.a07744f3.gif",
     "static/media/broadsword.376f0e3a.JPG": "/ryanhuang/static/media/broadsword.376f0e3a.JPG",
@@ -21,6 +21,7 @@
     "static/media/chungi.e39f9c99.JPG": "/ryanhuang/static/media/chungi.e39f9c99.JPG",
     "static/media/desert.d2fe21d0.JPG": "/ryanhuang/static/media/desert.d2fe21d0.JPG",
     "static/media/iwg.40a5a6f1.HEIC": "/ryanhuang/static/media/iwg.40a5a6f1.HEIC",
+    "static/media/jiayou.fe91dfda.gif": "/ryanhuang/static/media/jiayou.fe91dfda.gif",
     "static/media/picnic.60636362.HEIC": "/ryanhuang/static/media/picnic.60636362.HEIC",
     "static/media/pikachu.176efa05.gif": "/ryanhuang/static/media/pikachu.176efa05.gif",
     "static/media/presidio.6ef10469.HEIC": "/ryanhuang/static/media/presidio.6ef10469.HEIC",
@@ -36,6 +37,6 @@
     "static/js/runtime-main.d030b968.js",
     "static/js/2.a1887803.chunk.js",
     "static/css/main.5ec45463.chunk.css",
-    "static/js/main.f69d0683.chunk.js"
+    "static/js/main.561a336c.chunk.js"
   ]
 }
