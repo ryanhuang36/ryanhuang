@@ -61,11 +61,28 @@ function ExperienceItem(props) {
 
 const experiences = [
     {
+        title: "Garmin",
+        role: "Software Engineer Intern",
+        duration: "May 2022 - August 2022",
+        description: <div>
+            <div>
+                <a className="experience-link" href="https://connect.garmin.com/modern/" target="_blank" rel="noreferrer">Garmin Connect Web</a> is the goto application for all Garmin users worldwide, supporting over 10 million customers. I worked on this web application in React and Backbone to resolve bugs,
+                improve features, and implement new ones. My primary project was implementing a new workouts feature in collaboration with business and design teams. One of the biggest takeaways
+                I had for this project was how important it is to design first, then code later. Working with mobile developers, we
+                designed and presented an implementation structure for the feature, and it made the development process run smoothly, allowing us to make sure all platforms were in sync.
+                <br></br>
+                <br></br>
+                I also had the opportunity to work with the Connect API team to develop an internal API endpoint to cache thousands of beta users to enable granular logging, and it was fun to get my hands on both the frontend and backend during my time at Garmin. I also got really good at ping pong :)
+            </div>
+        </div>
+    },
+
+    {
         title: "DIEMlife",
         role: "Software Engineer Intern",
         duration: "May 2021 - July 2021",
         description: <div>
-            <img className="experience-img" src={DIEMlife}></img>
+            <img className="experience-img" src={DIEMlife} alt="diemlife"></img>
             <div>
                 DIEMlife is a platform focused around the idea of Quests, which can be fundraisers or challenges that groups or even individuals can host. DIEMlife has
                 both a web application and mobile apps (iOS and Android). As a software engineer intern, I worked on both web and mobile, in the frontend
@@ -88,8 +105,8 @@ const experiences = [
             <br></br>
             <br></br>
             You can read more about my time
-            at METEOR in <a className="experience-link" href="https://drive.google.com/file/d/1eyi0f5QqEMk-WW7uMPdEJLixzzecJIdS/view?usp=sharing" target="_blank">my report</a> and this 
-            <a className="experience-link" href="https://drive.google.com/file/d/15QyVUm6HNJ5fgZxixds6TnChWQ41eIfR/view?usp=sharing" target="_blank"> concept video</a>
+            at METEOR in <a className="experience-link" href="https://drive.google.com/file/d/1eyi0f5QqEMk-WW7uMPdEJLixzzecJIdS/view?usp=sharing" target="_blank" rel="noreferrer">my report</a> and this 
+            <a className="experience-link" href="https://drive.google.com/file/d/15QyVUm6HNJ5fgZxixds6TnChWQ41eIfR/view?usp=sharing" target="_blank" rel="noreferrer"> concept video.</a>
         </div>
     },
 
@@ -109,7 +126,7 @@ const projects = [
     {
         title: "Illumine",
         description: <div>
-            From PillaRx to PillarU, this startup had as many names as it had pivots. As the project manager for <a className="experience-link" href="https://onepager.vc/illumine" target="_blank">Illumine</a>, 
+            From PillaRx to PillarU, this startup had as many names as it had pivots. As the project manager for <a className="experience-link" href="https://onepager.vc/illumine" target="_blank" rel="noreferrer">Illumine</a>, 
             I worked day in and day out with a team of four UC Berkeley students, their majors ranging from CS to Economics to Mechanical Engineering. 
             This was an amazing experience being able to lead a team in ideating, drafting, and ultimately pitching a minimum viable product aimed at giving high school students
             an opportunity to see campus culture through university students.
@@ -119,7 +136,7 @@ const projects = [
     {
         title: "bQuarky (HackMIT)",
         description: <div>
-            <a className="experience-link" href="https://ucb-dha.web.app/" target="_blank">bQuarky</a> was a hackathon project that recommended users activities based on their interests. The catch- I was the only one who knew how to code on my team.
+            <a className="experience-link" href="https://ucb-dha.web.app/" target="_blank" rel="noreferrer">bQuarky</a> was a hackathon project that recommended users activities based on their interests. The catch- I was the only one who knew how to code on my team.
             Overall, this hack, although challenging, was really fun, as I was able to teach not only myself but also my teammates (psst... click on the dogs on the website) about web development, all while
             improving people's quarantined lives (at the time).
         </div>
@@ -130,7 +147,7 @@ const projects = [
             Gitlet supports common git commands such as status, add commit, merge, checkout etc. What made this project so challenging
             was the sheer amount of code that had to be written- I had to maintain a large mental model of what was going on. What really helped
             me get through this project was a design document where I could really ask myself which data structures I needed when implementing Gitlet.
-            whooooooooooo gitlettttt
+            whooooooooooo gitlettttt!
         </div>
     }
 ]

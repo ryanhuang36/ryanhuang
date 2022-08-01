@@ -1,6 +1,6 @@
 import React from 'react'
 import './Resume.css'
-import resume from '../../assets/Ryan_Resume.pdf'
+import resume from '../../assets/Ryan_Huang_Resume.pdf'
 
 class Resume extends React.Component {
     render() {

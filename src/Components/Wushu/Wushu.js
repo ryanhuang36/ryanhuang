@@ -4,11 +4,13 @@ import Broadsword from '../../assets/broadsword.JPG'
 import Chainwhip from '../../assets/chainwhip.JPG'
 import Tornado from '../../assets/tornado.JPG'
 import IWG from '../../assets/iwg.HEIC'
+import Jiayou from '../../assets/jiayou.gif'
 
 class Wushu extends React.Component {
     render() {
         return(
             <div className="wushu">
+                <img src={Jiayou} alt="jiayou" style={{marginTop: 16, width: 200, height: 200}}></img>
                 <p className="wushu-text">Wushu(武术) is a form of Chinese martial arts that I've practiced since I was 11. I train in taolu, which are set routines or forms that involve predetermined moves including kicks,
                     punches, sweeps, jumps, and flips completed in a performative manner. I'm currently a co-captain of Cal Wushu (UC Berkeley's collegiate team). Here's a few pics and videos for reference :)
                 </p>
